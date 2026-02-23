@@ -14,11 +14,11 @@ const categories = [
 
 /* ===== Банки ===== */
 const BANKS = [
-  { name:"Альфа-Банк", desc:"Кэшбэк до 33%", logo:"assets/alfa.png" },
-  { name:"Т-Банк", desc:"Умный кэшбэк до 25%", logo:"assets/tbank.png" },
-  { name:"Сбер", desc:"СберСпасибо до 30%", logo:"assets/sber.png" },
-  { name:"ВТБ", desc:"Мультикарта — до 15%", logo:"assets/vtb.png" },
-  { name:"Яндекс Банк", desc:"Баллы Плюса до 20%", logo:"assets/yandex.png" }
+  { name:"Альфа-Банк", desc:"Кэшбэк до 33%", logo:"alfa.png" },
+  { name:"Т-Банк", desc:"Умный кэшбэк до 25%", logo:"tbank.png" },
+  { name:"Сбер", desc:"СберСпасибо до 30%", logo:"sber.png" },
+  { name:"ВТБ", desc:"Мультикарта — до 15%", logo:"vtb.png" },
+  { name:"Яндекс Банк", desc:"Баллы Плюса до 20%", logo:"yandex.png" }
 ];
 
 /* ===== Данные магазинов =====
@@ -421,7 +421,7 @@ function ScreenBanks(){
   const profile = document.createElement("div");
   profile.className = "profile";
   profile.innerHTML = `
-    <div class="avatar"><img src="assets/logo.png" alt="logo"></div>
+    <div class="avatar"><img src="logo.png" alt="logo"></div>
     <h1>Выгодометр</h1>
     <p>Кэшбэк-агрегатор банков</p>
   `;
