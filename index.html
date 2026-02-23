@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+  <title>Выгодометр</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <div class="bg" aria-hidden="true">
+    <div class="blob b1"></div>
+    <div class="blob b2"></div>
+    <div class="blob b3"></div>
+  </div>
+
+  <main class="container">
+    <div id="view" class="view"></div>
+
+    <!-- Нижний glass футер как на скрине -->
+    <footer class="footer">
+      <div class="footer-glass">
+        <a class="footer-icon" href="#" aria-label="Telegram">
+          <svg viewBox="0 0 24 24">
+            <path d="M22 2L11 13"></path>
+            <path d="M22 2L15 22L11 13L2 9Z"></path>
+          </svg>
+        </a>
+
+        <a class="footer-icon" href="#" aria-label="Chat">
+          <svg viewBox="0 0 24 24">
+            <path d="M21 15a4 4 0 0 1-4 4H7l-4 4V7a4 4 0 0 1 4-4h10a4 4 0 0 1 4 4z"></path>
+          </svg>
+        </a>
+
+        <a class="footer-icon" href="#" aria-label="Email">
+          <svg viewBox="0 0 24 24">
+            <path d="M4 4h16v16H4z"></path>
+            <path d="M22 6l-10 7L2 6"></path>
+          </svg>
+        </a>
+      </div>
+
+      <div class="footer-copy">2026 Выгодометр</div>
+    </footer>
+  </main>
+
+  <script src="app.js"></script>
+</body>
+</html>
