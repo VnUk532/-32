@@ -16,16 +16,16 @@ const categories = [
 const profile = {
   title: "Выгодометр",
   subtitle: "Кэшбэк-агрегатор банков",
-  avatar: "assets/logo.png"
+  avatar:"logo.png"
 };
 
 /* ===== Банки (иконки локальные PNG) ===== */
 const BANKS = [
-  { name:"Альфа-Банк", desc:"Кэшбэк до 33% у партнёров", logo:"assets/alfa.png", bg:"rgba(255,120,155,.20)", color:"#e8265c" },
-  { name:"Т-Банк",     desc:"Умный кэшбэк до 25%",        logo:"assets/tbank.png", bg:"rgba(255,210,120,.25)", color:"#f2b100" },
-  { name:"Сбер",       desc:"СберСпасибо до 30%",         logo:"assets/sber.png", bg:"rgba(160,230,190,.25)", color:"#1ca85a" },
-  { name:"ВТБ",        desc:"Мультикарта — до 15%",        logo:"assets/vtb.png",  bg:"rgba(170,195,255,.25)", color:"#2d55d2" },
-  { name:"Яндекс Банк",desc:"Баллы Плюса до 20%",         logo:"assets/yandex.png",bg:"rgba(255,165,165,.25)", color:"#e62828" }
+  { name:"Альфа-Банк", desc:"Кэшбэк до 33% у партнёров", logo:"alfa.png", bg:"rgba(255,120,155,.20)", color:"#e8265c" },
+  { name:"Т-Банк",     desc:"Умный кэшбэк до 25%",        logo:"tbank.png", bg:"rgba(255,210,120,.25)", color:"#f2b100" },
+  { name:"Сбер",       desc:"СберСпасибо до 30%",         logo:"sber.png", bg:"rgba(160,230,190,.25)", color:"#1ca85a" },
+  { name:"ВТБ",        desc:"Мультикарта — до 15%",        logo:"vtb.png",  bg:"rgba(170,195,255,.25)", color:"#2d55d2" },
+  { name:"Яндекс Банк",desc:"Баллы Плюса до 20%",         logo:"yandex.png",bg:"rgba(255,165,165,.25)", color:"#e62828" }
 ];
 
 /* ===== Данные магазинов по банкам и категориям =====
