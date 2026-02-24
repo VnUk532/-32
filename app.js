@@ -222,7 +222,7 @@ function ScreenBanks() {
   const profile = document.createElement("div");
   profile.className = "profile";
   profile.innerHTML = `
-    <div class="avatar"><img src="assets/logo.png" alt="logo"></div>
+    <div class="avatar"><img src="logo.png" alt="logo"></div>
     <h1>Выгодометр</h1>
     <p>Кэшбэк-агрегатор банков</p>
   `;
@@ -286,11 +286,11 @@ function ScreenCategories(bankName) {
       <div class="logo-box">
         <img src="${
           {
-            "Альфа-Банк": "assets/alfa.png",
-            "Т-Банк": "assets/tbank.png",
-            "Сбер": "assets/sber.png",
-            "ВТБ": "assets/vtb.png",
-            "Яндекс Банк": "assets/yandex.png",
+            "Альфа-Банк": "alfa.png",
+            "Т-Банк": "tbank.png",
+            "Сбер": "sber.png",
+            "ВТБ": "vtb.png",
+            "Яндекс Банк": "yandex.png",
           }[bankName] || "assets/bank.png"
         }" alt="${bankName}">
       </div>
