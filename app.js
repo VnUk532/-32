@@ -291,7 +291,7 @@ function ScreenCategories(bankName) {
             "Сбер": "sber.png",
             "ВТБ": "vtb.png",
             "Яндекс Банк": "yandex.png",
-          }[bankName] || "assets/bank.png"
+          }[bankName] || "bank.png"
         }" alt="${bankName}">
       </div>
       <div>
