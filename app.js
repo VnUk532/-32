@@ -236,18 +236,18 @@ function ScreenBanks() {
   banks.forEach((bankName) => {
     // логотипы банков (локальные)
     const logoMap = {
-      "Альфа-Банк": "assets/alfa.png",
-      "Т-Банк": "assets/tbank.png",
-      "Сбер": "assets/sber.png",
-      "ВТБ": "assets/vtb.png",
-      "Яндекс Банк": "assets/yandex.png",
+      "Альфа-Банк": "alfa.png",
+      "Т-Банк": "tbank.png",
+      "Сбер": "sber.png",
+      "ВТБ": "vtb.png",
+      "Яндекс Банк": "yandex.png",
     };
 
     const card = document.createElement("div");
     card.className = "bank-card";
     card.innerHTML = `
       <div class="bank-left">
-        <div class="logo-box"><img src="${logoMap[bankName] || "assets/bank.png"}" alt="${bankName}"></div>
+        <div class="logo-box"><img src="${logoMap[bankName] || "bank.png"}" alt="${bankName}"></div>
         <div class="bank-text">
           <h2>${bankName}</h2>
           <p>Выбрать категории кэшбэка</p>
